@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Todo from './Components/Todo';
+import Todo from './components/Todo';
 
 export default{
   name:'App',

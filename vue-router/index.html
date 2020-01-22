@@ -10,7 +10,34 @@
   <body>
     
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <link rel='stylesheet' type='text/css' href='/resources/tutorial/css/example.css'>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCD-Q76gfzgM5GPzaNzGiLiakU9nCLwc7w",
+    authDomain: "todolist-ba516.firebaseapp.com",
+    databaseURL: "https://todolist-ba516.firebaseio.com",
+    projectId: "todolist-ba516",
+    storageBucket: "todolist-ba516.appspot.com",
+    messagingSenderId: "991002441352",
+    appId: "1:991002441352:web:dcf284940b8f9a4e7ed13d",
+    measurementId: "G-WEN7ERTK3D"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
     <script src="https://kit.fontawesome.com/a68c03f03f.js" crossorigin="anonymous"></script>
   </body>
 </html>
